@@ -1,2 +1,3 @@
-# algorithmic bias detection in media sources
+# Algorithmic Bias Detection in Media Sources
  
+ - Darwin
