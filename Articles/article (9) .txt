@@ -1,0 +1,25 @@
+How the driverless car of 1971 worked
+
+Every new technology has to start somewhere.
+And while the driverless car of 1971 doesn't much resemble the autonomous cars we see today, it still allowed a passenger to pass the time by reading a magazine — under certain conditions, that is.
+"Basically, it's a very simple device," said H.A. Prentice, Project Director at the Transport and Road Research Laboratory in Berkshire in the United Kingdom.
+CBC's U.K. correspondent, Tom Earle, had filed the report for Dec. 2, 1971. It consisted of Prentice's voice explaining the car's function over images of it in action.
+"In the road there's a single cable buried, and through this cable we pass a current," he went on.  
+The pictures showed a man in the driver's seat of a four-door red Cortina.
+But he wasn't driving. He was reading a magazine, and the car was on a wide closed track with no other vehicles present.
+"The current ... gives ride to a magnetic field about the cable," said Prentice. "On the front of the vehicle there are two coils, and these sense the magnetic field coming from the cable." 
+A close-up showed that there was no one's foot on the gas pedal.
+The coils sensed the car's position in relation to the cable, and sent information through the steering column to keep the car on course.
+"The speed is regulated by controlling the frequency of the engine," continued Prentice. "We have a very simple electronic device which you can set to your particular speed. This then checks the number of revolutions, and again feeds back to a little loop and keeps those revolutions at that level."
+According to a 2001 article in the Telegraph looking back on the history of the driverless car, the Cortina was one of four cars modified to run around the test track starting in 1960.
+"These "drive-by-wire" experiments were conducted using a number of modified production cars, including a Standard Vanguard estate, an Austin Mini and a Citroen DS19 saloon," said the newspaper.
+The Cortina was demonstrated during a public open day held by the laboratory in 1971.
+But the laboratory was subject to the same "all-too-familiar financial problems" as other publicly funded sectors in Britain in the mid-1970s.
+"Faced with a severe reduction in its income the TRRL was told to set its sights on short-term objectives, concentrating its "drive-by-wire" experiments on applications that promised an immediate commercial return, such as the automated guidance and control of buses," explained the Telegraph.
+Add some “good” to your morning and evening.
+A variety of newsletters you'll love, delivered straight to you.
+Audience Relations, CBC P.O. Box 500 Station A Toronto, ON  Canada, M5W 1E6 
+Toll-free (Canada only):  1-866-306-4636
+It is a priority for CBC to create a website that is accessible to all Canadians including people with visual, hearing, motor and cognitive challenges.
+Closed Captioning and Described Video is available for many CBC shows offered on CBC Gem.
+
