@@ -1,3 +1,3 @@
 # Algorithmic Bias Detection in Media Sources
  
-Owner: Darwin
+Owner: Darwin Li
