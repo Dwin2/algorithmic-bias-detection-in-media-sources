@@ -32,8 +32,3 @@ for i in links:
             continue
 
 keywords = {"white" : 0, "black" : 0, "asian" : 0, "indigenous" : 0}
-
-for i in range(1, count+1):
-    file_name = "article (" + str(i) + ") .txt"
-    with open(file_name, "r") as f:
-        
