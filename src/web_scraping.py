@@ -43,7 +43,7 @@ for i in links:
             soup2 = BeautifulSoup(response2.text, 'html.parser')
             texts = soup2.find_all('p')
             title = soup2.find_all('h1', attrs='detailHeadline')[0].text
-            file_name = "./Articles/article" + str(count) + ".txt"
+            file_name = "./src/Articles/article" + str(count) + ".txt"
             with open(file_name, "w") as f:
                 f.write(title + "\n\n")
                 for line in texts:

@@ -15,14 +15,14 @@ keywords = {
 }
 
 for i in range(1, totalArticles+1):
-    file = "./Articles/article" + str(i) + ".txt"
+    file = "./src/Articles/article" + str(i) + ".txt"
     with open(file, "r") as f:
         articles.append(list(map(str.strip, f.readlines(), )))
 
-with open("./Adjectives/negative_words.txt", "r") as f:
+with open("./src/Adjectives/negative_words.txt", "r") as f:
     neg_words = list(map(str.strip, f.readlines(), ))
 
-with open("./Adjectives/positive_words.txt", "r") as f:
+with open("./src/Adjectives/positive_words.txt", "r") as f:
     pos_words = list(map(str.strip, f.readlines(), ))
 
 cnt = 1
