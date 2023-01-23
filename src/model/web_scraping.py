@@ -1,9 +1,11 @@
-import requests, time
+#--------------------- ! DO NOT RUN ! ------------------
+
+import requests, time, sys
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from bs4 import BeautifulSoup
 
-
+sys.exit(0)
 url = 'https://www.cbc.ca/archives'
 
 
@@ -43,7 +45,7 @@ for i in links:
             soup2 = BeautifulSoup(response2.text, 'html.parser')
             texts = soup2.find_all('p')
             title = soup2.find_all('h1', attrs='detailHeadline')[0].text
-            file_name = "./src/Articles/article" + str(count) + ".txt"
+            file_name = "./src/model/articles/article" + str(count) + ".txt"
             with open(file_name, "w") as f:
                 f.write(title + "\n\n")
                 for line in texts:
