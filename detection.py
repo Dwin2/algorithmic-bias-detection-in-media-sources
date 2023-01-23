@@ -1,17 +1,17 @@
 totalArticles = 100
 articles, neg_words, pos_words = [], [], []
 keywords = {
-    'South Asian' : [0, 0],
-    'Chinese' : [0, 0],
-    'Black' : [0, 0],
-    'Filipino' : [0, 0],
-    'Arab' : [0, 0],
-    'Latin American' : [0, 0],
-    'Southeast Asian' : [0, 0],
-    'West Asian' : [0, 0],
-    'Korean and Japanese' : [0, 0],
-    'Indigenous': [0, 0],
-    'White' : [0, 0],
+    'South Asian' : [[], []],
+    'Chinese' : [[], []],
+    'Black' : [[], []],
+    'Filipino' : [[], []],
+    'Arab' : [[], []],
+    'Latin American' : [[], []],
+    'Southeast Asian' : [[], []],
+    'West Asian' : [[], []],
+    'Korean and Japanese' : [[], []],
+    'Indigenous': [[], []],
+    'White' : [[], []],
 }
 
 for i in range(1, totalArticles+1):
@@ -32,12 +32,12 @@ for article in articles:
             if keyword not in line: continue
             for word in neg_words:
                 if word not in line: continue
-                keywords[keyword][0] += 1
+                keywords[keyword][0].append(word)
             for word in pos_words:
                 if word not in line: continue
-                keywords[keyword][1] += 1
+                keywords[keyword][1].append(word)
     print(cnt)
     cnt += 1
 
 for keyword in keywords:
-    print(keyword, keywords[keyword])
+    print(keyword, len(keywords[keyword][0]), len(keywords[keyword][1]))
