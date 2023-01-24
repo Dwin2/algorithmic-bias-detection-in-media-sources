@@ -19,7 +19,7 @@ for i in range(1, totalArticles+1):
     with open(file, "r") as f:
         articles.append(list(map(str.strip, f.readlines(), )))
 
-with open("../src/model/adjectives/negative_words.txt", "r") as f:
+with open("./src/model/adjectives/negative_words.txt", "r") as f:
     neg_words = list(map(str.strip, f.readlines(), ))
 
 with open("./src/model/adjectives/positive_words.txt", "r") as f:
